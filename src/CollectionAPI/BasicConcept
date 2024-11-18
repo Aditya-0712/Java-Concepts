@@ -1,0 +1,23 @@
+CollectionAPI --> 1.Collection (interface)
+                  2.Map (interface)
+
+Collection (interface)
+    |
+    |
+    ------->    1. List (interface)
+                2. Set (interface)
+                3. Queue (interface)
+
+
+List (interface)
+    |
+    |
+    -------->   1. ArrayList (class)
+                2. LinkedList (class)
+
+Basically every interface is implemented by many in-built classes, we can use them as follows:
+interface_name <data_type> object_name = new class_name<>();
+e.g: List<Integer> obj = new ArrayList<>();
+
+Keep in mind that class_name should implement interface_name
+as ArrayList implements List

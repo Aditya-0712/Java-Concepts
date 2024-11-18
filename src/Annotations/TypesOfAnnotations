@@ -1,0 +1,8 @@
+I suggest searching types and its uses of annotations
+
+@Override - to override a method
+@Deprecated - preferred to not use the class
+@Retention - ignore after compilation
+@FunctionalInterface - declare a functional interface
+
+There are many more
